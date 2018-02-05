@@ -37,7 +37,5 @@ var object = {object: key}
 
 delete object.object
 
-var newObject = object
-
 return object
 }
