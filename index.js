@@ -4,7 +4,7 @@ var recipes = {dinner: "chicken and rice"}
 
 function updateObjectWithKeyAndValue(object, key, value){
 
-var obj = recipes
+var obj = {}
 
 var newObj = Object.assign({}, obj)
 
