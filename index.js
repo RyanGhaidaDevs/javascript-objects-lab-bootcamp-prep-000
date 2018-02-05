@@ -34,9 +34,10 @@ return object
 function destructivelyDeleteFromObjectByKey(object, key){
 
 var object = {object: key}
+
 delete object.object
 
-var newObject = destructivelyDeleteFromObjectByKey(object, key)
+var newObject = object
 
-return newObject
+return object
 }
